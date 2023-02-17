@@ -19,6 +19,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.ViewComponents
         {
             var identityServerUrl = _configuration.IdentityServerBaseUrl;
             
+            // ReSharper disable once Mvc.ViewComponentViewNotResolved
             return View(model: identityServerUrl);
         }
     }

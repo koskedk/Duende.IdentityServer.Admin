@@ -72,7 +72,7 @@ namespace Skoruba.Duende.IdentityServer.Admin.UI.Areas.AdminUI.Controllers
         public override ViewResult View(object model)
         {
             GenerateNotifications();
-
+            // ReSharper disable once Mvc.ViewNotResolved
             return base.View(model);
         }
     }

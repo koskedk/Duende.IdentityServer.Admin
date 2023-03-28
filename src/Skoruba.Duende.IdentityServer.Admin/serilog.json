@@ -18,9 +18,9 @@
                 }
             },
             {
-                "Name": "MSSqlServer",
+                "Name": "SQLite",
                 "Args": {
-                    "connectionString": "Server=(localdb)\\mssqllocaldb;Database=DuendeIdentityServerAdmin;Trusted_Connection=True;MultipleActiveResultSets=true",
+                    "connectionString": "Data Source=IdentityLogging.sqlite;Version=3;Pooling=True;Max Pool Size=100;",
                     "tableName": "Log",
                     "columnOptionsSection": {
                         "addStandardColumns": [ "LogEvent" ],
